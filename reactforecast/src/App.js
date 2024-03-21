@@ -234,6 +234,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+	  <div className="home-icon" onClick={() => this.handleCurrentMenu('home')}><i class="fa-solid fa-house"></i></div>
         {this.state.currentMenu === "home"
           ? this.renderHome()
           : this.renderRealTimeAndForecast()}

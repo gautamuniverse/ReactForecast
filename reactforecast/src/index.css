@@ -110,3 +110,15 @@ button {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.57);
   transform: scale(1.05);
 }
+
+
+.home-icon{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+.home-icon:hover{
+  cursor: pointer;
+}
