@@ -222,7 +222,7 @@ class App extends React.Component {
         </div>
 
         <div className="footer-info">
-          <a href="">Download Source Code</a> &nbsp; | Developed by &nbsp;
+          <a href="https://github.com/gautamuniverse/ReactForecast/">Download Source Code</a> &nbsp; | Developed by &nbsp;
           <a target="_blank" href="https://github.com/gautamuniverse">
             Gautam
           </a>{" "}
