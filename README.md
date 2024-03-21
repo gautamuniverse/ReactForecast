@@ -18,13 +18,15 @@ This weather application is built using React JS and utilizes the weather API fr
 - Open the folder in Visual Studio Code.
 - Install dependencies using `npm install`.
 - Run the local server using `nodemon index.js`.
+- Local server will be running on `http://localhost:3001`
 
 ### 2. React Forecast Application:
 
 - Navigate to the `reactforecast` folder.
 - Open the folder in Visual Studio Code.
 - Install dependencies using `npm install`.
-- Run the project using `npm start`.
+- Run the project using `npm start`
+- The ReactForecast will be running on `http://localhost:3000`
 
 **Note:** The local server is utilized to handle CORS restrictions imposed on fetching the external API.
 
