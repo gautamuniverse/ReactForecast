@@ -34,10 +34,11 @@ This weather application is built using React JS and utilizes the weather API fr
 - Node.js
 - Express
 - Tomorrow.io Weather API
+- [Api-Ninja](https://api-ninjas.com/) Api for location details
 
 ## Credits:
 
-This project utilizes the Tomorrow.io weather API for fetching weather data. 
+This project utilizes the Tomorrow.io weather API for fetching weather data. Also utilizes [Api-Ninja](https://api-ninjas.com/) Api for location details.
 
 ## Contact Information
 
