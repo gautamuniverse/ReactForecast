@@ -12,12 +12,9 @@ app.get("/", (req, res) => {
 });
 
 app.post('/getcityfromcoord', async (req, res) => {
-    console.log(req.body);
     const apiUrl = req.body.url;
-    console.log(req.body);
     const header = req.body.header;
     const api = req.body.api;
-    console.log(api);
     try{
         const apiResponse = await fetch(apiUrl, {
             headers: {
@@ -25,7 +22,6 @@ app.post('/getcityfromcoord', async (req, res) => {
             }
         });
         const data = await apiResponse.json();
-        console.log("Data: ",data);
         res.json(data); 
     }
     catch(err)
